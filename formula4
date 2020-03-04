@@ -1,0 +1,20 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    long y,a,g,h;
+    cout<< "masukkan nilai y : ";
+    cin>>y;
+    cout<< "masukkan nilai a : ";
+    cin>>a;
+    cout<< "masukkan nilai g : ";
+    cin>>g;
+    cout<< "masukkan nilai h : ";
+    cin>>h;
+
+    cout<< "maka hasilnya adalah "<< 2*y+((4*pow(a,2)+100)/(g*h));
+    return 0;
+}
