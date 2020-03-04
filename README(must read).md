@@ -1,0 +1,1 @@
+semangat kuliahnya kalian!
