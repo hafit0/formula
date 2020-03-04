@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    long a,b,d,e,pembilang,penyebut,pecahan;
+    cout<< "masukkan nilai a : ";
+    cin>>a;
+    cout<< "masukkan nilai b : ";
+    cin>>b;
+    cout<< "masukkan nilai d : ";
+    cin>>d;
+    cout<< "masukkan nilai e : ";
+    cin>>e;
+    pembilang = a*(1-pow(e,2));
+    pecahan = ((a/5)+pow(e,4))/(d-sqrt(25));
+    penyebut=sqrt(pow(b,2)+pecahan);
+
+    cout<< "maka hasilnya adalah "<< pembilang/penyebut;
+    return 0;
+}
