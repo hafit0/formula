@@ -1,0 +1,21 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    long a,b,c,d,e;
+    cout << "input nilai a : " ;
+    cin>>a;
+    cout << "input nilai b : ";
+    cin>>b;
+    cout << "input nilai c : ";
+    cin>>c;
+    d= pow(b,2);
+    e= sqrt(d-(4*a*c));
+    cout<<"maka hasil dari perhitungan dengan formula adalah " <<e;
+
+
+    return 0;
+}
